@@ -34,3 +34,12 @@ ArtikelAplikasi/app/Providers/EventServiceProvider.php
 ArtikelAplikasi/app/Providers/RouteServiceProvider.php
 ArtikelAplikasi/bootstrap/app.php
 ArtikelAplikasi/config/app.php
+ArtikelAplikasi/vue-artikel/node_modules/.bin/acorn
+*.cmd
+*.ps1
+ArtikelAplikasi/vue-artikel/node_modules/.bin/ansi-html
+ArtikelAplikasi/vue-artikel/node_modules/.bin/autoprefixer
+/ArtikelAplikasi/vue-artikel/node_modules/.bin
+/ArtikelAplikasi/vue-artikel/node_modules/@achrinza/node-ipc/dao
+/ArtikelAplikasi/vue-artikel/node_modules/@achrinza/node-ipc/entities
+/ArtikelAplikasi/vue-artikel/node_modules
