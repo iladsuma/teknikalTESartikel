@@ -34,3 +34,6 @@ ArtikelAplikasi/app/Providers/EventServiceProvider.php
 ArtikelAplikasi/app/Providers/RouteServiceProvider.php
 ArtikelAplikasi/bootstrap/app.php
 ArtikelAplikasi/config/app.php
+ArtikelAplikasi/vue-artikel/public/favicon.ico
+ArtikelAplikasi/vue-artikel/babel.config.js
+ArtikelAplikasi/vue-artikel/src/assets/logo.png
