@@ -9,16 +9,28 @@
                             <hr>
                             <ul class="list-group">
                                 <router-link :to="{name: 'dashboard'}" class="list-group-item text-dark text-decoration-none">DASHBOARD</router-link>
+
                                 <router-link :to="{name: 'articles'}" class="list-group-item text-dark text-decoration-none">DAFTAR ARTIKEL</router-link>
                                 <router-link :to="{name: 'add-article'}" class="list-group-item text-dark text-decoration-none">TAMBAH ARTIKEL</router-link>
                                 <!-- Tambahkan link untuk halaman tambah artikel, halaman edit artikel, dan halaman detail artikel di sini -->
+
                                 <li @click="logout" class="list-group-item text-dark text-decoration-none" style="cursor:pointer">LOGOUT</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8">
+
                     <router-view></router-view> <!-- Ini akan menampilkan komponen-komponen untuk halaman yang diarahkan -->
+
+                    <div class="card">
+                        <div class="card-body">
+                            DASHBOARD
+                            <hr>
+                            Selamat Datang <strong>{{ user.name }}</strong>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
